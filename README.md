@@ -4,6 +4,6 @@ Auf den Wiki Seiten findet Ihr die Unterlagen zum Kurs der vhs Esslingen.
 
 Schaue Dir das [Wiki](../../wiki) an.
 
-[Technikschule raspberry pi Kurs](http://www.vhs-esslingen.de/Kurse%20Details/fachbereich-FS4e26dbede2c90/semester-2-15/autowert-L757225)
+[Technikschule Kurse u.a. Raspberry Pi]( https://www.vhs-esslingen.de/programm/technikschule/ )
 
 
