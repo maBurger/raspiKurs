@@ -6,12 +6,11 @@
 
 from time import sleep
 
-print("raspi Kurs Esslingen")
+print("Raspi Kurs in Esslingen")
 
-sleep(3)
-weiter="j"
-while weiter=="j":
-	print()
+sleep(2)
+weiter = True
+while weiter:
 	print("Vorwiderstandsberechnung")
 
 	#Eingabe
@@ -35,7 +34,10 @@ while weiter=="j":
 	print("--> benötigter Vorwiderstand: {0:5.0f} OHM".format((u_batt - u_led)/i_led*1000))
 	print("                              {0:1.3f} Watt".format((u_batt - u_led)*i_led/1000))
 
-	print()
-	weiter = input("Weiter j/n: ")
+	r_weiter = input("Weiter J/n: ")
+	if(r_weiter == "n"):
+		weiter = False
+	else:
+		weiter = True
 
 print("Tschüß")
